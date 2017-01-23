@@ -1,11 +1,11 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'run/run/spec/version'
+require 'run_run_spec/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "run-run-spec"
-  spec.version       = Run::Run::Spec::VERSION
+  spec.version       = RunRunSpec::VERSION
   spec.authors       = ["pekepek"]
   spec.email         = ["ishihata@33i.co.jp"]
 

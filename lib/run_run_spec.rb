@@ -1,9 +1,4 @@
-require "run/run/spec/version"
+require "run_run_spec/version"
 
-module Run
-  module Run
-    module Spec
-      # Your code goes here...
-    end
-  end
+module RunRunSpec
 end
